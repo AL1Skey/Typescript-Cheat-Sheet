@@ -1,0 +1,19 @@
+command:
+
+-ts file:
+    tsc --init
+create ts config
+    node <name typescript file>
+execute typescript
+    tsc
+compile typescript to default location
+
+-tsconfig:
+    target:""
+Set javascript ver ex:(es5,es6)
+    lib:[]
+insert lib ex:(es6,dom)
+    outdir:"./"
+Set output of compiler
+    rootdir:"./"
+Set source folder of typescript
